@@ -3,16 +3,26 @@
 	"displayName": "Random GTIN Generator",
 	"description": "",
 	"publisher": "KemalOgunIsik",
+	"icon": "resources/extension_icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ogun/random-gtin-generator"
 	},
-	"version": "0.0.1",
+	"author": {
+		"name": "Kemal Ogun Isik",
+		"url": "https://github.com/ogun"
+	},
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
 	"categories": [
 		"Other"
+	],
+	"keywords": [
+		"gtin",
+		"gtin-14",
+		"barcode"
 	],
 	"activationEvents": [
 		"onCommand:random-gtin-generator.create"
